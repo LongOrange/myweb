@@ -1,0 +1,64 @@
+body,ul{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:14px;
+    font-family: '华文中宋';
+    background:url(../img/07.jpg) no-repeat ;
+    background-size:cover;
+}
+ul{
+    list-style:none;
+}
+a:hover{
+    text-decoration: none;
+    cursor:pointer;
+}
+header{
+    display:inline-block;
+    /*border-right:2px solid #0b97c4;*/
+    /*margin-top:5px;*/
+    /*height:760px;*/
+
+}
+article{
+    display: inline-block;
+}
+#navTitle{
+    text-align: center;
+    color:#fff;
+}
+#navList ul{
+    margin-top:50px;
+    padding:0;
+
+    color:#2f6f9f;
+}
+#navList li{
+    height:40px;
+    font-size:16px;
+    padding:5px 0 5px 5px;
+    margin-left:0;
+    text-align:center;
+    /*background:rgba(255,255,255,0.8) !important;*/
+}
+#navList li:hover{
+    background:#eee;
+    color:#0c60ee;
+    font-size:18px;
+    padding-left:10px;
+}
+
+#profile{
+    color:#fff;
+    margin-top:50px;
+}
+#profile h2{
+    text-align: center;
+}
+#profile p{
+    padding:10px;
+    margin:5px;
+    font-size:16px;
+}
