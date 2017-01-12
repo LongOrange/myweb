@@ -7,6 +7,9 @@
     var app=angular.module('mySpaceApp',[]);
 
     app.controller('spaceCtrl',['$scope','$http',function($scope,$http){
+        //
+        $scope.showSubNav=true;
+
         var pro=$http.get('data/nav.json',{cache:true});
         console.log(pro);
         pro.then(function(rep){
@@ -27,5 +30,7 @@
             console.log(data+" "+status);
         });
         console.log(intro);
+
+
     }])
 })();

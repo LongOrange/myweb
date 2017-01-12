@@ -5,15 +5,26 @@
   },
   "n02":{
     "title":"技术探讨",
-    "src":"/html/02"
+    "src":"/html/02",
+    "sub":[{"title":"基础知识","src":"/html/02/base"},
+      {"title":"技巧特效","src":"/html/02/skill"},
+      {"title":"各种模板","src":"/html/02/tempt"},
+      {"title":"各种插件","src":"/html/02/plug"}]
   },
   "n03":{
     "title":"个人项目",
-    "src":"/html/03"
+    "src":"/html/03",
+    "sub":[{"title":"基础项目","src":"/html/03/base"},
+      {"title":"小型项目","src":"/html/03/small"},
+      {"title":"中型项目","src":"/html/03/middle"}]
   },
   "n04":{
     "title":"奥秘研究",
-    "src":"/html/04"
+    "src":"/html/04",
+    "sub":[{"title":"关于宇宙","src":"/html/04/universe"},
+      {"title":"关于人体","src":"/html/04/man"},
+      {"title":"关于时空","src":"/html/04/time"},
+      {"title":"关于宗教","src":"/html/04/god"}]
   },
   "n05":{
     "title":"联系方式",

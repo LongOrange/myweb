@@ -4,7 +4,7 @@ body,ul{
 }
 body{
     font-size:14px;
-    font-family: '华文中宋';
+    font-family: 'Tahoma';
     background:url(../img/07.jpg) no-repeat ;
     background-size:cover;
 }
@@ -27,31 +27,50 @@ article{
 }
 #navTitle{
     text-align: center;
-    color:#fff;
+    color:#efefef;
 }
-#navList ul{
+#navList> ul{
     margin-top:50px;
-    padding:0;
-
+    padding:0px;
     color:#2f6f9f;
 }
-#navList li{
-    height:40px;
+#navList>ul> li{
+    /*height:40px;*/
     font-size:16px;
-    padding:5px 0 5px 5px;
+    padding:5px 0px;
     margin-left:0;
     text-align:center;
     /*background:rgba(255,255,255,0.8) !important;*/
 }
-#navList li:hover{
-    background:#eee;
+#navList >ul>li:hover{
+    /*background:#eee;*/
     color:#0c60ee;
     font-size:18px;
-    padding-left:10px;
+    /*padding-left:10px;*/
+}
+#navList>ul>li>a:hover{
+    background:#11c1f3;
+    display: block;
+    padding:5px 0px;
+    margin-top:0;
+}
+#navList .subnav {
+    display:none;
+}
+#navList .subnavShow>li{
+    display: block;
+    font-size:14px;
+    padding:5px 0px;
+
+}
+#navList .subnavShow>li:hover{
+    font-size:16px;
+    background:#11c1f3;
+    /*padding-left:0;*/
 }
 
 #profile{
-    color:#fff;
+    color:#ededed;
     margin-top:50px;
 }
 #profile h2{
@@ -61,4 +80,5 @@ article{
     padding:10px;
     margin:5px;
     font-size:16px;
+
 }

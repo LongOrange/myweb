@@ -1,18 +1,20 @@
 <header class="col-sm-3 col-xs-12 ">
 
-    <section class="col-sm-12" id="navTitle">
+    <section class="col-sm-12 col-xs-12" id="navTitle">
         <h2>My Space</h2>
     </section>
-    <section class="col-sm-12" id="navList">
-        <ul class="col-sm-12 col-xs-12 list-group ">
-            <li ng-repeat="nav in navs" class="list-group-item">
+    <section class="col-sm-12 col-xs-12" id="navList">
+        <ul class="list-group">
+            <li ng-repeat="nav in navs" class="list-group-item ng-cloak"
+                ng-mouseenter="showSubNav=false"
+                ng-mouseleave="showSubNav=true" ng-cloak>
                 <a src="{{nav.src}}">{{nav.title}}</a>
+                <ul ng-class="{'subnav':showSubNav,'subnavShow':!showSubNav}">
+                    <li ng-repeat="sub in nav.sub" class="">
+                        <a src="{{sub.src}}">{{sub.title}}</a>
+                    </li>
+                </ul>
             </li>
-            <!--<li><a>前端技术</a></li>
-            <li><a>博客文章</a></li>
-            <li><a>个人项目</a></li>
-            <li><a>奥秘研究</a></li>
-            <li><a>联系方式</a></li>-->
         </ul>
     </section >
 
